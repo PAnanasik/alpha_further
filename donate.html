@@ -20,9 +20,18 @@
                     <div class="input__subtitle">Выберите сумму для пожертвования <span style="color:red">*</span></div>
                     <input type="number" name="" id="" class="main__input" placeholder="200Р">
                     <div class="input__subtitle">Введите текст пожертвования</div>
-                    <textarea rows="5" cols="60" class="main__textarea">
+                    <textarea rows="5" cols="60" class="main__textarea" maxlength="200">
                     </textarea>
-                    <button class="left__info-button">Отправить</button>
+                    <div class="left__info-navigation">
+                        <button class="left__info-button">Отправить</button>
+
+                        <div class="back">
+                            <a href="#">
+                                На главную
+                            </a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <div class="right__info">
@@ -34,7 +43,5 @@
             </div>
         </section>
     </section>
-
-    <script src="donate.js"></script>
 </body>
 </html>

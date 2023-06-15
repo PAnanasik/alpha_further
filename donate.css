@@ -189,6 +189,23 @@ input::-webkit-inner-spin-button {
     } */
 }
 
+.left__info-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.1s ease;
+}
+
+.back a:hover {
+    color: #696969;
+}
+
 @media screen and (max-width: 800px) {
     .left__info {
         width: 100%;
